@@ -1,0 +1,154 @@
+@font-face{
+    font-family: fredericka;
+    src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+    }
+@font-face{
+        font-family: opensans;
+        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+        }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: opensans;
+    box-sizing: border-box;
+}
+H1, H2, H3, H4 {
+    font-family: fredericka;
+}
+H2, H3, H4 {
+    text-align: center;
+}
+ 
+header{
+    background: url(../img/bg.jpeg) no-repeat center/cover;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+    padding: 18px 0 0 120px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+header article{
+    width: 22%;
+    margin: 0 auto;
+    padding-top: 10%;
+    color: #fff;
+    text-align: center;
+}
+
+header article p{
+    padding: 12px 0 24px 0;
+}
+header article a{
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid #fff;
+    padding: 6px 40px;
+    color: #fff;
+}
+header article a:hover{
+    background: #fff;
+    color: #000;
+}
+header ul{
+    padding-top: 140px;
+    padding-right: 120px;
+    text-align: right;
+    color: #fff;
+}
+
+header li{
+  line-height: 2rem;;
+}
+header li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+/* MAIN */
+main article{
+    margin: 0 auto;
+    text-align: center;
+}
+H3 {font-size: 2rem;
+padding: 2rem 0;}
+
+main section article:nth-of-type(1) p{
+    margin: 0 auto;
+    width: 38%;
+    text-align: center;
+}
+main section article:nth-of-type(2){
+    margin: 30px auto;
+    border:6px double #000;
+    width: 16%;
+}
+main section article:nth-of-type(2) p{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+main section article:nth-of-type(2) p a{
+    color:#000;
+    text-decoration: none;
+}
+
+main section article:nth-of-type(2) p a:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 100px;
+    background: #111;
+    padding: 30px 20px 20px 20px;
+}
+
+footer p{
+    color: #fff;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+footer article a{
+    text-decoration: none;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    padding: 6px 40px;
+    color: #fff;
+}
+footer article a:hover{
+    background: #fff;
+    color: #000;
+}
+
+footer nav{
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px 0 0; 
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+text-decoration: underline;
+}
