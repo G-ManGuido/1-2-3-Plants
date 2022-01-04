@@ -26,7 +26,8 @@ header{
 }
 h1{
     color: #fff;
-    padding: 18px 0 0 120px;
+    padding: 2rem 0 0 3rem;
+    font-size: 2.5rem;
 }
 
 h2{
@@ -59,14 +60,15 @@ header article a:hover{
     color: #000;
 }
 header ul{
-    padding-top: 140px;
-    padding-right: 120px;
-    text-align: right;
+    position: absolute; 
+    bottom: 2rem;
+    right:3rem;
     color: #fff;
 }
 
 header li{
-  line-height: 2rem;;
+  line-height: 2rem;
+  list-style-type: none;
 }
 header li a{
     color: #fff;
